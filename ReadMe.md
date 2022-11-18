@@ -4,8 +4,10 @@ install requirements:
 pip install -r requirements.txt
 
 Open new terminal window and clone this repository
-git clone https://github.com/Mediknow-v2/NobalGuy.git
+git clone https://github.com/Anshajak/AddressBook-fastapi/
 
+Install dependencies
+cd AddressBook-fastapi-main
 
 run project:
 python main.py
