@@ -3,6 +3,9 @@ How to start project
 install requirements: 
 pip install -r requirements.txt
 
+run project:
+python main.py
+
 All urls used in this project.
 Please use Postman instead of Swagger, because urls uses params.
 Postman collection link.https://www.getpostman.com/collections/b7aeab97d0fe096a7a92
