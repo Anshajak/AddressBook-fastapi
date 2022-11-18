@@ -1,12 +1,15 @@
 How to start project
 
 install requirements: 
+
 pip install -r requirements.txt
 
-Open new terminal window and clone this repository
+Open new terminal window and clone this repository:
+
 git clone https://github.com/Anshajak/AddressBook-fastapi/
 
-Install dependencies
+Install dependencies:
+
 cd AddressBook-fastapi-main
 
 run project:
