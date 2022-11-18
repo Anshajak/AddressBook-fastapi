@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<style>
+table{
+    width: 100%;
+  border:1px solid black;
+    border-collapse: collapse;
+}
+td {
+  border:1px solid black;
+}
+thead{
+    font-size: 21px;
+    background: #570b63;
+    color: white;
+    
+}
+td{
+   padding: 5px 10px;     
+}
+
+</style>
+<body>
+
+<h1>All urls used in this project.</h1>
+<h3>Please use Postman instead of Swagger, because urls uses params.</h3>
+<h5>Postman collection link.<a href="https://www.getpostman.com/collections/b7aeab97d0fe096a7a92">https://www.getpostman.com/collections/b7aeab97d0fe096a7a92</a></h5>
+<h4>Admin Links</h4>
+<table>
+    <thead>
+    <tr>
+        <td>Url</td>
+        <td>Function</td>
+        <td>Params</td>
+        <td>Request</td>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>/admin/user</td>
+        <td>showUserAdmin</td>
+        <td>none - show all users<br>
+            user_id - show all users with same user_id<br>
+            email - show all users with same email
+        </td>
+        <td>Get</td>
+    </tr>
+    <tr>
+        <td>/admin/user/add</td>
+        <td>addUserAdmin</td>
+        <td>none</td>
+        <td>Get</td>
+    </tr>
+    <tr>
+        <td>/admin/user/edit</td>
+        <td>editUserAdmin</td>
+        <td>user_id - edit user with same user_id.<br>
+            username - edit user with same username.<br>
+            email - edit user with same email.
+        </td>
+        <td>Get</td>
+    </tr>
+    <tr>
+        <td>/admin/user/delete</td>
+        <td>deleteUserAdmin</td>
+        <td>none - delete all users.<br>
+            user_id - delete user with same user_id.<br>
+            username - delete user with same username.<br>
+            email - delete user with same email.
+        </td>
+        <td>Get</td>
+    </tr>
+    <tr>
+        <td>/admin/address</td>
+        <td>showAddressAdmin</td>
+        <td>user_id - show address with same user_id.<br>
+            id - show address with same id.<br>
+            distance - show address within distance(meter).<br>
+            latitude - show address with same latitude.<br>
+            longitude - show address with same longitude.<br>
+            street - show address with same street.<br>
+            state - show address with same state.<br>
+            city - show address with same city.<br>
+            pincode - show address with same pincode.<br>
+            addresstype - show address with same addresstype.
+        </td>
+        <td>Get</td>
+    </tr>
+    <tr>
+        <td>/admin/address/add</td>
+        <td>addAddressAdmin</td>
+        <td>none - add address to user with '0' user_id.<br>
+            user_id - add address to user with same user_id.
+        </td>
+        <td>Get</td>
+    </tr>
+    <tr>
+        <td>/admin/address/edit</td>
+        <td>editAddressAdmin</td>
+        <td>id - edit address with same id</td>
+        <td>Get</td>
+    </tr>
+    <tr>
+        <td>/admin/address/delete</td>
+        <td>deleteAddressAdmin</td>
+        <td>none - delete all addresss.<br>
+            user_id - delete address with same user_id.<br>
+            id - delete address with same id.<br>
+        </td>
+        <td>Get</td>
+    </tr>
+</tbody>
+</table>
+<h4>User Links</h4>
+<table>
+    <thead>
+    <tr>
+        <td>Url</td>
+        <td>Function</td>
+        <td>Params</td>
+        <td>Request</td>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>/user</td>
+        <td>showUser</td>
+        <td>none - show all info of user</td>
+        <td>Get</td>
+    </tr>
+    <tr>
+        <td>/user/add</td>
+        <td>addUser</td>
+        <td>none</td>
+        <td>Get</td>
+    </tr>
+    <tr>
+        <td>/user/edit</td>
+        <td>editUser</td>
+        <td>none</td>
+        <td>Get</td>
+    </tr>
+    <tr>
+        <td>/user/delete</td>
+        <td>deleteUser</td>
+        <td>none</td>
+        <td>Get</td>
+    </tr>
+    <tr>
+        <td>/address</td>
+        <td>showAddress</td>
+        <td>none - show all address.<br>
+            id - show address with same id.<br>
+            distance - show address within distance(meter).<br>
+            latitude - show address with same latitude.<br>
+            longitude - show address with same longitude.<br>
+            street - show address with same street.<br>
+            state - show address with same state.<br>
+            city - show address with same city.<br>
+            pincode - show address with same pincode.<br>
+            addresstype - show address with same addresstype.
+        </td>
+        <td>Get</td>
+    </tr>
+    <tr>
+        <td>/address/add</td>
+        <td>addAddress</td>
+        <td>none - add address to user login user.<br>
+        </td>
+        <td>Get</td>
+    </tr>
+    <tr>
+        <td>/address/edit</td>
+        <td>editAddress</td>
+        <td>id - edit address with same id</td>
+        <td>Get</td>
+    </tr>
+    <tr>
+        <td>/address/delete</td>
+        <td>deleteAddress</td>
+        <td>none - delete all addresss.<br>
+            id - delete address with same id.
+        </td>
+        <td>Get</td>
+    </tr>
+</tbody>
+</table>
+<footer>
+    
+<h4>Create by anshaj</h4>
+<h4>Github links: <a href="https://github.com/Anshajak">My account</a>, <a href="https://github.com/Anshajak/AddressBook-fastapi">Project</a></h4>
+<h4>Email <a href="mailtoanshaj.dhiman.7@gmail.com">anshaj.dhiman.7@gmail.com</a></h4>
+</footer>
+</body>
+</html>
