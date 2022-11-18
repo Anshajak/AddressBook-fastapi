@@ -3,6 +3,10 @@ How to start project
 install requirements: 
 pip install -r requirements.txt
 
+Open new terminal window and clone this repository
+git clone https://github.com/Mediknow-v2/NobalGuy.git
+
+
 run project:
 python main.py
 
